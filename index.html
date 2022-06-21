@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo List</title>
+
+  <link rel="stylesheet" href="./src/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="dark">
+  <main class="app">
+
+    <section class="dark">
+      <div>
+        <input type="checkbox" placeholder="." class="checkbox" id="chk">
+        <label class="label" for="chk">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+    </section>
+
+    <section class="saudacoes">
+      <h2 class="titulo">
+        Olá,
+        <input type="text" id="nome" placeholder="Nome aqui!">
+      </h2>
+    </section>
+
+    <section class="criar-todo">
+      <h3>Crie um ToDo List</h3>
+      <form id="novo-form-todo">
+        <h4>O que tenho para fazer?</h4>
+        <input type="text" name="conteudo" id="conteudo" placeholder="ex.: fazer um vídeo">
+
+        <h4>Escolha uma categoria</h4>
+        <div class="opcoes">
+
+          <label>
+            <input type="radio" name="categoria" id="categoria1" value="negocios" />
+            <span class="bubble negocios"></span>
+            <div class="categoria-negocios">Negócios</div>
+          </label>
+
+          <label>
+            <input type="radio" name="categoria" id="categoria2" value="pessoal" />
+            <span class="bubble pessoal"></span>
+            <div class="categoria-pessoal">Pessoal</div>
+          </label>
+        </div>
+
+        <input type="submit" value="Adicionar Lista" />
+      </form>
+    </section>
+
+    <section class="todo-lista">
+      <h3>ToDo List</h3>
+      <div class="lista" id="todo-lista"></div>
+    </section>
+
+  </main>
+
+  <footer class="rodape container">
+    <span class="rodape_copy">
+      &#169: Guilherme Delmiro.
+    </span>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script src="./src/darkMode.js"></script>
+  <script src="./src/main.js"></script>
+
+
+
+</body>
+
+</html>
