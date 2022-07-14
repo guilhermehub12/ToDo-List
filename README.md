@@ -6,6 +6,9 @@
   <img align="center" alt="Gui-CSS" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" style="max-width: 100%;">  
 </div>
 
+### 📜 Descrição:
+#### Projeto criado com objetivo de aprender mais os fundamentos de JavaScript com LocalStorage.
+
   ![projeto1](https://user-images.githubusercontent.com/66763791/174852846-2e811102-33d7-4e97-bb66-a4a2254ee3f2.jpeg)
   
   obs.: Modo Dark e Modo Light
