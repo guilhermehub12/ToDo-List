@@ -7,7 +7,8 @@
 </div>
 
 ### 🔗 Link:
-#### https://guilhermehub12.github.io/ToDo-List/
+#### Site: https://guilhermehub12.github.io/ToDo-List/
+#### Tutorial Utilizado: https://youtu.be/6eFwtaZf6zc
 
 ### 📜 Descrição:
 #### Projeto criado com objetivo de aprender mais os fundamentos de JavaScript com LocalStorage.
